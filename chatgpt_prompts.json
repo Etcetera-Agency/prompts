@@ -1,0 +1,20 @@
+[
+  {
+    "cmd": "hook",
+    "act": "hook Ideas",
+    "prompt": "Client posted a {{job post}}. His name is {{cl_name}}. Info about the client is {{cl_info}}. Write 10 different hook or ice-breakers to the start message to the client which will catch the attention for the cleint. Client will see only 230 chars of the message so catching part should be in first 230 parts but hook can be 300 chars. Info about me is {{fl_info}} At start Greet client with his name if provided uasing the client's country language. At hook/Ice-breacker may be used: 1) painpoints found in the jop post, that can be handled, 2) same values shared with the client, 3) rare random fact about client's city connected with result of client’s paint point solved by me best posibble way doing the job, start this with “Like a..”, be detailed, 4) rare random fact about client's niche connected with result of client’s paint point solved by me best posibble way doing the job, start this with “Like a..”,  be detailed, 5) smart technical question about job post showing my expertise in the client's task,  6) Admiration for the idea of the project (if provided) wich is close to my values.\nEach hook/Ice-breacker must be aligned to main job post task/request. Ask me any questions you need to create hooks.\n{{cl_name}} =\n{{cl_info}} = \n{{fl_info}} = \n{{job post}} =",
+    "enable": true,
+    "tags": [
+      "upwork"
+    ]
+  },
+  {
+    "cmd": "technical question",
+    "act": "technical question",
+    "prompt": "Client posted a {{job post}}. Info about the client is {{cl_info}}. Write 10 different smart technical question about job post showing my expertise in the client's task to catch the attention for the cleint. Each question must be aligned to main job post task/request. Keep questions short and simple words. Ask me any questions you need to create questions. \n{{cl_info}} = \n{{job post}} = ",
+    "enable": true,
+    "tags": [
+      "upwork"
+    ]
+  }
+]
